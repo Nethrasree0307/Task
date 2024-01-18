@@ -76,7 +76,7 @@ namespace JWTAuth.Controllers
         }
 
         // GET: auth/test
-        [Authorize(Roles = "Everyone")]
+        [Authorize(Roles = "Manager")]
         [HttpGet]
         public IActionResult Test()
         {

@@ -1,4 +1,4 @@
-  document.addEventListener('DOMContentLoaded', function () {
+ document.addEventListener('DOMContentLoaded', function () {
             document.getElementById('submitBtn').addEventListener('click', function () {
                 var name = document.getElementById('employeeName').value;
                 var position = document.getElementById('employeePosition').value;
